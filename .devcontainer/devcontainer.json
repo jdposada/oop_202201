@@ -1,0 +1,28 @@
+{
+	"name": "oop_docker",
+	"image": "jdposa/oop_docker",
+	"mounts": [
+		"source=${localEnv:HOME}/.config/gcloud,target=/home/jovyan/.config/gcloud,type=bind,consistency=cached"
+	],
+	
+	"remoteUser": "root",
+	
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"forwardPorts":{"host:8080"},
+
+	"containerEnv": { "GRANT_SUDO": "yes" },
+	
+	"containerUser": "root",
+
+	"extensions": ["ms-python.python", 
+				   "ms-python.anaconda-extension-pack", 
+				   "redhat.vscode-yaml", 
+				   "ms-python.vscode-pylance", 
+				   "visualstudioexptteam.vscodeintellicode",
+                   "hediet.vscode-drawio",
+				   "jebbs.plantuml"],
+
+}

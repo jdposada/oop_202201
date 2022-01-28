@@ -1,0 +1,7 @@
+bs4 
+pytest 
+pillow
+pylint
+matplotlib
+ipykernel
+mypy

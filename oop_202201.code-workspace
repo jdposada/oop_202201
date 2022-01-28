@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.suggestSelection": "first",
+		"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+		"window.zoomLevel": -1,
+		"notebook.compactView": false,
+		"jupyter.askForKernelRestart": false,
+		"files.associations": {
+			"*.uml": "plantuml"
+		},
+		"plantuml.exportOutDir": "figures",
+		"plantuml.fileExtensions": ".wsd,.pu,.puml,.plantuml,.iuml,uml",
+		"plantuml.render": "PlantUMLServer",
+		"plantuml.server": "https://www.plantuml.com/plantuml"
+	}
+}
