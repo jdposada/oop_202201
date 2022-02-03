@@ -1,9 +1,6 @@
 {
 	"name": "oop_docker",
 	"image": "jdposa/oop_docker",
-	"mounts": [
-		"source=${localEnv:HOME}/.config/gcloud,target=/home/jovyan/.config/gcloud,type=bind,consistency=cached"
-	],
 	
 	"remoteUser": "root",
 	
