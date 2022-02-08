@@ -27,7 +27,7 @@ We will be using material from several places, but mostly the material created b
 ### Azure setup and VM
 
 - Open an [Azure Student Account](https://azure.microsoft.com/en-us/free/students/) using your Uninorte email. This will give you 100 USD in credits
-- Start a VM with 1 Core and 4GB of RAM. We will cover how to do this in class. Here some [instructions](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal) for you to peek
+- Start a VM with 1 Core and 4GB of RAM. We will cover how to do this in class. We will use Ubuntu 20.04. Here some [instructions](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal) for you to peek
 - Connect to the VM using SSH. If you are in windows you will need to use [Putty](https://www.putty.org/). if you are in Ubuntu you are all set. the command you will need to run is something like this `ssh oopclass@10.1.1.1`. In this command oopclass is the user that was created during the VM creation and the IP is assigned automatically by Azure.
 - Install Docker and Git **inside the VM**
     - [Docker instructions](https://docs.docker.com/engine/install/ubuntu/)
