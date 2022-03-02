@@ -1,0 +1,29 @@
+@startuml
+'fig_4'
+left to right direction
+
+class Apple {
++ color: str
++ weight: float
++ barrel: Barrel
+}
+class Barrel {
++ size: int
++ apples: List[Apple]
+}
+Apple "*" --- "1"  Barrel : go in >
+
+class Orange {
++ weight: float
++ orchard: str
++ date_picked: date
++ basket: Basket
+}
+class Basket {
++ location: str
++ oranges: List[Orange}
+}
+Orange "*" --- "1" Basket : go in >
+
+
+@enduml

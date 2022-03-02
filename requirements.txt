@@ -5,3 +5,8 @@ pylint
 matplotlib
 ipykernel
 mypy
+seaborn
+pandas
+jsonschema
+beautifulsoup4
+pyyaml

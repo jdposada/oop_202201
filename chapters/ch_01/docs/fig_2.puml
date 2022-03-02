@@ -1,0 +1,16 @@
+@startuml
+'fig_2'
+left to right direction
+
+scale 2
+
+class Apple {}
+class Barrel {}
+Apple "*" --- "1"  Barrel : go in >
+
+class Orange {}
+class Basket {}
+Orange "*" --- "1" Basket : go in >
+
+
+@enduml
